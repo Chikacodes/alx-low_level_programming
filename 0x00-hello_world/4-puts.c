@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main(void): main function controls our programme
+ * main(void) -  main function controls our programme
  *
  * puts(): prints output
  *
@@ -13,10 +13,9 @@
  *
  * Return: returns a 0 value
  */
-
-int main(void) /* man(void) not returning any value */
+int main(void)/* int main(void): programme begins here return 0 value */
 {
-char My_string[] = "Programming is like building a multilingual puzzle";
-puts(My_string);
+char My_string[] = ""Programming is like building a multilingual puzzle";
+puts(My_string);/*outputs My_string to stdout */
 return (0);
 }
