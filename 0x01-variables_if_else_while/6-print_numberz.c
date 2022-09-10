@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	char digit_s;
+	int digit_s;
 
 	for (digit_s = '0'; digit_s <= '9'; digit_s++)
 	{
