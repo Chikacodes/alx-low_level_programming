@@ -15,12 +15,12 @@ int main(void)
 	{
 	putchar(alphabet);
 	}
-	putchar(10);
 
 	for (alphabet = 65; alphabet <= 90; alphabet++)
 	{
 	putchar(alphabet);
 	}
+	putchar(0);
 
 	return (0);
 }
